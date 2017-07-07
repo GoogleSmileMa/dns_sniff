@@ -33,17 +33,11 @@ optional arguments:
 
 # ./dns_sniff.py -n google -i bond1
 Sniffing DNS packets...
-10.client-channel.google.com. <-> 74.125.68.189 (TTL=300, queried by 10.199.0.15)
-10.client-channel.google.com. <-> 74.125.68.189 (TTL=300, queried by 10.199.0.16)
-r2---sn-q4fl6nle.googlevideo.com. <-> 74.125.1.152 (TTL=1800, queried by 10.199.0.15)
-10.client-channel.google.com. <-> 2404:6800:4003:c02::bd (TTL=300, queried by 10.199.0.15)
-ytstatic.l.google.com. <-> 74.125.68.102 (TTL=300, queried by 10.199.0.16)
-sb.l.google.com. <-> 2404:6800:4003:80c::200e (TTL=300, queried by 10.199.0.16)
-r7---sn-i3b7kned.googlevideo.com. <-> 74.125.164.204 (TTL=1800, queried by 10.199.0.15)
-google.com.vn. <-> 74.125.68.94 (TTL=300, queried by 10.199.0.15)
-google.com.vn. <-> 74.125.68.94 (TTL=300, queried by 10.199.0.16)
-www.google.com. <-> 74.125.203.99 (TTL=293, queried by 10.199.157.131)
-www.google.com. <-> 74.125.68.99 (TTL=278, queried by 10.199.157.131)
-r11---sn-5hne6ney.googlevideo.com. <-> 173.194.156.80 (TTL=1800, queried by 10.199.0.15)
-r11---sn-5hne6ney.googlevideo.com. <-> 173.194.156.80 (TTL=1800, queried by 10.199.0.16)
+10.client-channel.google.com. <-> 74.125.68.189 (TTL=300, queried by 192.0.2.15)
+10.client-channel.google.com. <-> 74.125.68.189 (TTL=300, queried by 192.0.2.16)
+r2---sn-q4fl6nle.googlevideo.com. <-> 74.125.1.152 (TTL=1800, queried by 192.0.2.15)
+10.client-channel.google.com. <-> 2404:6800:4003:c02::bd (TTL=300, queried by 192.0.2.15)
+ytstatic.l.google.com. <-> 74.125.68.102 (TTL=300, queried by 192.0.2.16)
+sb.l.google.com. <-> 2404:6800:4003:80c::200e (TTL=300, queried by 192.0.2.16)
+r7---sn-i3b7kned.googlevideo.com. <-> 74.125.164.204 (TTL=1800, queried by 192.0.2.15)
 ```
