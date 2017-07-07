@@ -3,7 +3,7 @@ This script is used to sniff DNS packets on network interfaces. The purpose is t
 
 # Installation
 * Mandatory:
-  * sudo pip install scapy
+  `pip install scapy`
 
 * Optional (if we want to color-print IP addresses from Vietnam):
   * sudo pip install ip_address
