@@ -51,4 +51,4 @@ ytstatic.l.google.com. <-> 74.125.68.102 (TTL=300, queried by 192.0.2.16)
 sb.l.google.com. <-> 2404:6800:4003:80c::200e (TTL=300, queried by 192.0.2.16)
 r7---sn-i3b7kned.googlevideo.com. <-> 74.125.164.204 (TTL=1800, queried by 192.0.2.15)
 ```
-_**Note: Modify the directory in the script to suit your system_**
+_**Note: Modify the directory in the script to suit your system**_
