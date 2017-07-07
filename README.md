@@ -11,6 +11,7 @@ If we want to color-print IP addresses from Vietnam, first we need to install so
 ```
 pip install ip_address
 pip install ip_network
+pip install requests
 pip install colorama
 ```
 Then populate the Vietnam's public IP database by running [collect_ip_vietnam.py](https://github.com/hoangtnk/dns_sniff/blob/master/collect_ip_vietnam.py) script. We should also schedule this script to run periodically to update the database content.
