@@ -7,12 +7,13 @@ Install the scapy module:
 pip install scapy
 ```
 
-If we want to color-print IP addresses from Vietnam, we need to install some additional modules:
+If we want to color-print IP addresses from Vietnam, first we need to install some additional modules:
 ```
 pip install ip_address
 pip install ip_network
 pip install colorama
 ```
+Then populate the Vietnam's public IP database by running collect_ip_vietnam.py script. We should also schedule this script to run periodically to update the database content.
 
 # Usage
 Assign execute permission for the script:
