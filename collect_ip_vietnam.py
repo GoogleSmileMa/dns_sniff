@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
 # Collect public IP addresses (IPv4 and IPv6) in Vietnam
+
 from datetime import datetime
 from pprint import pformat
 
@@ -20,7 +21,6 @@ except ImportError:
     with open("/home/hoangtnk/Logs/collect_ip_vietnam.log", "a") as f:
         f.write(datetime.now().strftime("%d/%m/%Y %H:%M:%S") + ": Fatal error! IPaddress module has not been installed!\n")
     sys.exit()
-
 
 def collect_ip():
    
@@ -50,7 +50,6 @@ def collect_ip():
                 f.write("ipv4 = %s\n\n" % pformat(ipv4_list))
             if len(ipv6_list) > 0:
                 f.write("ipv6 = %s" % pformat(ipv6_list))
-
 
 if __name__ == "__main__":
     collect_ip()
