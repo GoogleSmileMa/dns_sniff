@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
 # DNS sniffing using scapy module
+
 from __future__ import print_function
 
 import sys
@@ -27,11 +28,9 @@ except ImportError:
     print("Download it from https://pypi.python.org/pypi/scapy and try again.")
     sys.exit()
 
-
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 logging.getLogger("scapy.interactive").setLevel(logging.ERROR)
 logging.getLogger("scapy.loading").setLevel(logging.ERROR)
-
 
 def name_to_ip(pkt):
    
@@ -102,7 +101,6 @@ def name_to_ip(pkt):
             except IndexError:
                 pass
 
-
 def main():
    
     """ Main function """
@@ -147,7 +145,6 @@ def main():
         if presence:
             deinit()
         sys.exit()
-
 
 if __name__ == "__main__":
     main()
