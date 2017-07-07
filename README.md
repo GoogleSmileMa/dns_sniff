@@ -15,8 +15,13 @@ pip install colorama
 ```
 
 # Usage
+Assign execute permission for the script:
 ```
 # chmod a+x dns_sniff.py
+```
+
+Show the available options:
+```
 # ./dns_sniff.py --help
 usage: dns_sniff.py [-h] [-n name [name ...]] [-s src [src ...]] [-i iface]
                     [-c count] [-g]
@@ -30,7 +35,10 @@ optional arguments:
   -i iface            interface on which to sniff DNS packets (default all)
   -c count            number of DNS packets to sniff (default infinity)
   -g                  color-print Vietnam' IPs (default not set)
+```
 
+Sample output:
+```
 # ./dns_sniff.py -n google -i bond1
 Sniffing DNS packets...
 10.client-channel.google.com. <-> 74.125.68.189 (TTL=300, queried by 192.0.2.15)
