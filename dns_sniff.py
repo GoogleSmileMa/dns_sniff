@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python
 #
 # DNS sniffing using scapy module
@@ -152,4 +151,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
