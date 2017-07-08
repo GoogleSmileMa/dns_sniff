@@ -22,6 +22,7 @@ except ImportError:
         f.write(datetime.now().strftime("%d/%m/%Y %H:%M:%S") + ": Fatal error! IPaddress module has not been installed!\n")
     sys.exit()
 
+    
 def collect_ip():
    
     """ Collect public IP addresses """
@@ -51,5 +52,6 @@ def collect_ip():
             if len(ipv6_list) > 0:
                 f.write("ipv6 = %s" % pformat(ipv6_list))
 
+                
 if __name__ == "__main__":
     collect_ip()
