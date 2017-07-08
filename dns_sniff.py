@@ -28,9 +28,11 @@ except ImportError:
     print("Download it from https://pypi.python.org/pypi/scapy and try again.")
     sys.exit()
 
+    
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 logging.getLogger("scapy.interactive").setLevel(logging.ERROR)
 logging.getLogger("scapy.loading").setLevel(logging.ERROR)
+
 
 def name_to_ip(pkt):
    
@@ -101,6 +103,7 @@ def name_to_ip(pkt):
             except IndexError:
                 pass
 
+            
 def main():
    
     """ Main function """
@@ -146,5 +149,6 @@ def main():
             deinit()
         sys.exit()
 
+        
 if __name__ == "__main__":
     main()
